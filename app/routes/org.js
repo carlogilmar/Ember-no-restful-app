@@ -4,4 +4,8 @@ export default Route.extend({
   //model(){
   //  return $.get(``);
   //}
+  model(params){
+    console.log(params.id);
+    return [];
+  }
 });
