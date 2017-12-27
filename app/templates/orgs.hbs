@@ -1,0 +1,7 @@
+<h1>Orgs!!</h1>
+
+{{#each model as |org|}}
+    <br> {{link-to org.id 'org' org.id}}
+{{/each}}
+
+{{outlet}}
