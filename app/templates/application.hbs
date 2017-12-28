@@ -3,4 +3,11 @@
 
 Usuario: {{model.name}}
 
+<br>
+Buscar aquí
+<br>
+{{input type="text" class="form-control" placeholder="Búsqueda por usuario" value=username}}
+<button class="btn btn-primary" {{ action "findAdminByUser"}}>Buscar por Usuario</button>
+
+
 {{outlet}}
